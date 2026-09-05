@@ -1,17 +1,37 @@
 aid: 7invensun
 name: 7Invensun Technology
-description: '7Invensun Technology is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  7Invensun Technology (Beijing 7invensun Technology Co., Ltd. / 北京七鑫易维信息技术有限公司) is a
+  Beijing-based eye-tracking company founded in 2009 that develops eye-tracking hardware,
+  gaze-estimation algorithms and device SDKs. Its aSee product family spans glasses-style,
+  desktop and high-speed research eye trackers (aSee Glasses, aSee Glasses Elite, aSee Pro,
+  aSee Pro Plus, aSee A series), aSee VR modules embedded in XR headsets, an aSee Mobile
+  developer accessory, and eye-controlled communication aids for people with ALS, high
+  paraplegia and cerebral palsy. The company packages these into solutions for in-vehicle
+  driver monitoring (DMS), spatial computing and XR foveated rendering, phone and tablet
+  gaze interaction, and safety monitoring, and states it serves more than 1,000 customers
+  across research and education, healthcare, energy, transport and aerospace. Its developer
+  surface is a native device SDK distributed from its own download center and through OEM
+  agreements, not a public web API.
+image: https://img.wanwang.xin/sitefiles10185/10185530/%E7%BD%91%E7%AB%99icon.png
 url: https://raw.githubusercontent.com/api-evangelist/7invensun/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-05'
 modified: '2026-09-05'
+position: Producing
 tags:
 - Company
+- Eye Tracking
+- Computer Vision
+- Artificial Intelligence
+- Hardware
+- Virtual Reality
+- Augmented Reality
+- Assistive Technology
+- Automotive
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +39,47 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/7invensun-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/7invensun
+  url: https://www.7invensun.com/
+- type: Blog
+  url: https://www.7invensun.com/newsRepublic
+- type: Support
+  url: https://www.7invensun.com/lxwm
+- type: PrivacyPolicy
+  url: https://www.7invensun.com/yszc
+- type: GitHubOrganization
+  url: https://github.com/7invensun
+- type: LLMsTxt
+  url: llms/7invensun-llms.txt
+- type: Packages
+  url: packages/7invensun-packages.yml
+- type: Plans
+  url: plans/7invensun-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/7invensun-rate-limits.yml
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v3
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: >-
+    The only HTTP API host 7Invensun runs, api.7invensun.com, answers HTTP 401 with the body
+    "请登录" (please log in) on every path including its root and every /.well-known/ path, and
+    no public reference, portal or spec for it is published anywhere — developer., docs. and
+    open.7invensun.com do not resolve, and the aSeeVR device SDK is handed to registered
+    customers and OEM partners from a download center rather than documented publicly.
+  evidence:
+  - url: https://api.7invensun.com/
+    status: 401
+  - url: https://api.7invensun.com/v3/api-docs
+    status: 401
+  - url: https://www.7invensun.com/llms.txt
+    status: 404
+  - url: https://www.7invensun.com/apis.json
+    status: 404
+  checked: '2026-09-05'

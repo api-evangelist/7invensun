@@ -1,0 +1,122 @@
+generated: '2026-09-05'
+method: probed
+source: live HTTPS probes of every host this record knows
+note: >-
+  No /.well-known document was served on any host. api.7invensun.com answers HTTP 401
+  ("请登录" / please log in) on every path including its root, so nothing there is
+  anonymously readable. The marketing host www.7invensun.com began returning HTTP 429
+  from its Alibaba Tengine edge partway through this pass, so most of its /.well-known
+  rows record a rate-limit rather than a measured absence; the two 404 rows on that host
+  were observed before the edge started throttling. NO WellKnown or SecurityTxt pointer
+  is emitted — nothing was fetched and saved.
+hit_count: 0
+hosts:
+- host: https://api.7invensun.com
+  note: >-
+    Spring-backed application host. Every path returns 401 with the body "请登录";
+    no anonymous surface exists, so no document could be evaluated.
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 401
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 401
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 401
+    file: null
+  - path: /.well-known/api-catalog
+    status: 401
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 401
+    file: null
+  - path: /.well-known/ucp.json
+    status: 401
+    file: null
+  - path: /.well-known/acp.json
+    status: 401
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 401
+    file: null
+  - path: /.well-known/apis.json
+    status: 401
+    file: null
+  - path: /apis.json
+    status: 401
+    file: null
+  - path: /apis.yml
+    status: 401
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 401
+    file: null
+  - path: /.well-known/agent.json
+    status: 401
+    file: null
+  path_echo_control: passed
+  negative_control:
+    path: /.well-known/7invensun-negative-control-9c41ab7f.json
+    status: 401
+- host: https://www.7invensun.com
+  note: >-
+    Alibaba Cloud (Tengine) edge in front of a wanwang.xin site-builder origin. Returned
+    429 to this probe after the first few requests; the rows below marked 429 are a
+    rate-limit on our side, not an observed absence.
+  documents:
+  - path: /apis.json
+    status: 404
+    file: null
+    observed: '2026-09-05T20:38Z'
+  - path: /llms.txt
+    status: 404
+    file: null
+    observed: '2026-09-05T20:38Z'
+  - path: /.well-known/security.txt
+    status: 429
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 429
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 429
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 429
+    file: null
+  - path: /.well-known/api-catalog
+    status: 429
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 429
+    file: null
+  - path: /.well-known/ucp.json
+    status: 429
+    file: null
+  - path: /.well-known/acp.json
+    status: 429
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 429
+    file: null
+  - path: /.well-known/apis.json
+    status: 429
+    file: null
+  - path: /apis.yml
+    status: 429
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 429
+    file: null
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
+    error: connection reset
+  path_echo_control: not-evaluated
+  negative_control:
+    path: /.well-known/7invensun-negative-control-9c41ab7f.json
+    status: 0

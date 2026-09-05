@@ -1,0 +1,13 @@
+generated: '2026-09-05'
+method: searched
+source: https://api.7invensun.com/
+limit_count: 0
+note: >-
+  No rate limits are published, because no public API reference is published. The only HTTP
+  API host 7Invensun runs, api.7invensun.com, returns HTTP 401 ("请登录") on every path
+  including its root, so no anonymous response could be observed and no RateLimit-*,
+  X-RateLimit-* or Retry-After header could be recorded. Separately, the marketing host
+  www.7invensun.com enforces an undocumented edge rate limit — its Alibaba Tengine edge
+  began returning HTTP 429 to this probe after a small number of requests — but that is a
+  site WAF policy, not a published API limit.
+rate_limits: []

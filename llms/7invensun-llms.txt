@@ -1,0 +1,50 @@
+# 7Invensun Technology
+
+> Beijing 7invensun Technology Co., Ltd. (北京七鑫易维信息技术有限公司) is a Chinese eye-tracking
+> company founded in 2009. It builds eye-tracking hardware, gaze-estimation algorithms and
+> device SDKs: the aSee family of glasses-style, desktop and high-speed research eye trackers,
+> aSee VR modules embedded in XR headsets, an aSee Mobile developer accessory, and
+> eye-controlled communication aids for people with ALS, high paraplegia and cerebral palsy.
+> As of this profile 7Invensun publishes no public web API, no OpenAPI/AsyncAPI/GraphQL
+> contract, and no developer portal. Its developer surface is a native device SDK (aSeeVR
+> UserSDK and related C/C++ and mobile libraries) obtained from the company's own download
+> center or under an OEM agreement.
+
+## Company
+
+- [7invensun official site](https://www.7invensun.com/): Product, solution and company pages (Simplified Chinese).
+- [News](https://www.7invensun.com/newsRepublic): Company news and event coverage.
+- [Contact](https://www.7invensun.com/lxwm): business@7invensun.com, +86 400-8708-777, Beijing Shunyi.
+- [Privacy policy](https://www.7invensun.com/yszc)
+- [GitHub organization](https://github.com/7invensun): One repository (aSeeVR), empty as of this profile.
+
+## Products
+
+- aSee Glasses / aSee Glasses Elite — glasses-style wearable eye trackers for research.
+- aSee Pro / aSee Pro Plus — desktop and high-speed eye trackers for scientific research.
+- aSee A series — portable eye trackers.
+- aSee VR — eye-tracking modules for VR/XR headsets (foveated rendering, gaze interaction).
+- aSee Mobile — phone/tablet eye-tracking accessory with a developer edition SDK.
+- Eye-controlled communication aids (aSee AIO lineage) for motor-impaired users.
+
+## Solutions
+
+- Automotive driver monitoring (DMS) and in-cabin gaze interaction.
+- Spatial computing / XR: foveated rendering, gaze interaction, identity and authentication.
+- Phone and tablet gaze control: gaze unlock, gaze focus, gaze page-turn.
+- Safety monitoring for eldercare and critical-illness settings.
+
+## API surface
+
+- No OpenAPI, AsyncAPI, GraphQL SDL, Postman collection or JSON Schema is published.
+- No developer portal: `developer.7invensun.com`, `docs.7invensun.com` and `open.7invensun.com`
+  do not resolve.
+- `https://api.7invensun.com/` exists but answers HTTP 401 ("请登录" / please log in) on every
+  path probed, including its root. No public reference for it is published.
+- No first-party client library is published on npm, PyPI, NuGet, Maven Central, RubyGems,
+  crates.io or pkg.go.dev.
+
+## Profile
+
+- [API Evangelist profile](https://apis.io/provider/7invensun/)
+- [Repository](https://github.com/api-evangelist/7invensun)

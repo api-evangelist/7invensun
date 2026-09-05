@@ -64,5 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-7Invensun Technology is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/7invensun
+7Invensun Technology (Beijing 7invensun Technology Co., Ltd. / 北京七鑫易维信息技术有限公司) is a
+Beijing-based eye-tracking company founded in 2009. It develops eye-tracking hardware,
+gaze-estimation algorithms and device SDKs: the aSee family of glasses-style, desktop and
+high-speed research eye trackers, aSee VR modules embedded in XR headsets, an aSee Mobile
+developer accessory, and eye-controlled communication aids for people with ALS, high
+paraplegia and cerebral palsy.
+
+**API surface as profiled 2026-09-05:** none published. No OpenAPI, AsyncAPI, GraphQL SDL,
+Postman collection or JSON Schema is published anywhere; `developer.`, `docs.` and `open.`
+subdomains do not resolve; no first-party client library exists on npm, PyPI, NuGet, Maven
+Central, RubyGems, crates.io or pkg.go.dev; and the company's GitHub organization holds one
+empty repository. The single HTTP API host, `api.7invensun.com`, answers HTTP 401
+("请登录" / please log in) on every path including its root, with no public reference. The
+developer surface is a native device SDK (aSeeVR UserSDK and siblings) distributed from the
+company's own download center or under an OEM agreement.
+
+- Website: https://www.7invensun.com/
+- GitHub: https://github.com/7invensun
+- Secondary-market listing this profile was harvested from: https://equityzen.com/company/7invensun

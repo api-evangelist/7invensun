@@ -1,0 +1,45 @@
+generated: '2026-09-05'
+method: searched
+source: >-
+  npm registry search, PyPI JSON API, NuGet search, Maven Central, RubyGems, crates.io,
+  pkg.go.dev, the 7invensun GitHub organization, and the 7invensun.com product/download nav
+note: >-
+  7Invensun publishes no client library in any public package registry. Its developer
+  distribution is a native device SDK — the aSeeVR UserSDK (C/C++ headers ASeeVR_client.h,
+  ASeeVR_types.h, ASeeVR_utility.h) for Windows/Unity, plus mobile and desktop tracker SDKs —
+  handed out from the company's own download center or under an OEM agreement, with no
+  versioned registry artifact a consumer can pin. The only published wrappers found are
+  third-party community projects, recorded here as official: false so the distinction is
+  explicit. The company GitHub organization (github.com/7invensun) holds a single repository,
+  aSeeVR, created 2016-09-18 and never pushed to — it is empty.
+package_count: 0
+official_package_count: 0
+registries_checked:
+- {registry: npm, query: '7invensun', hits: 0}
+- {registry: npm, query: 'aseevr', hits: 0}
+- {registry: pypi, name: '7invensun', status: 404}
+- {registry: pypi, name: 'aseevr', status: 404}
+- {registry: nuget, query: '7invensun', hits: 0}
+packages: []
+third_party_wrappers:
+- language: 'c#'
+  registry: github
+  name: NGenesis/PimaxEyeTracker
+  url: https://github.com/NGenesis/PimaxEyeTracker
+  official: false
+  version: null
+  published: null
+  note: >-
+    Community utility library with language bindings for the aSeeVR UserSDK, for the
+    7invensun Droolon Pi1 eye tracker. Not distributed through a package registry, so no
+    registry version/date exists to record.
+- language: markdown
+  registry: github
+  name: guppyexpress/ASeeVR-Documentation
+  url: https://github.com/guppyexpress/ASeeVR-Documentation
+  official: false
+  version: null
+  published: null
+  note: >-
+    Community-published Doxygen documentation of the aSeeVR SDK headers. The vendor
+    publishes no equivalent public API reference of its own.
