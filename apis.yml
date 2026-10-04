@@ -24,7 +24,7 @@ position: Producing
 tags:
 - Company
 - Eye Tracking
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Hardware
 - Virtual Reality
@@ -43,6 +43,7 @@ tags_raw:
 - Assistive Technology
 - Automotive
 - China
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
