@@ -2,6 +2,13 @@
   "repo": "7invensun",
   "feeds": [
     {
+      "source": "https://www.7invensun.com/newsRepublic",
+      "feed_url": "https://www.7invensun.com/newsRepublic",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.7invensun.com/",
       "feed_url": "https://www.7invensun.com/",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
