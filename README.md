@@ -64,22 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-7Invensun Technology (Beijing 7invensun Technology Co., Ltd. / 北京七鑫易维信息技术有限公司) is a
-Beijing-based eye-tracking company founded in 2009. It develops eye-tracking hardware,
-gaze-estimation algorithms and device SDKs: the aSee family of glasses-style, desktop and
-high-speed research eye trackers, aSee VR modules embedded in XR headsets, an aSee Mobile
-developer accessory, and eye-controlled communication aids for people with ALS, high
-paraplegia and cerebral palsy.
+7Invensun Technology (Beijing 7invensun Technology Co., Ltd. / 北京七鑫易维信息技术有限公司) is a Beijing-based eye-tracking company founded in 2009 that develops eye-tracking hardware, gaze-estimation algorithms and device SDKs. Its aSee product family spans glasses-style, desktop and high-speed research eye trackers (aSee Glasses, aSee Glasses Elite, aSee Pro, aSee Pro Plus, aSee A series), aSee VR modules embedded in XR headsets, an aSee Mobile developer accessory, and eye-controlled communication aids for people with ALS, high paraplegia and cerebral palsy. The company packages these into solutions for in-vehicle driver monitoring (DMS), spatial computing and XR foveated rendering, phone and tablet gaze interaction, and safety monitoring, and states it serves more than 1,000 customers across research and education, healthcare, energy, transport and aerospace. Its developer surface is a native device SDK distributed from its own download center and through OEM agreements, not a public web API.
 
-**API surface as profiled 2026-09-05:** none published. No OpenAPI, AsyncAPI, GraphQL SDL,
-Postman collection or JSON Schema is published anywhere; `developer.`, `docs.` and `open.`
-subdomains do not resolve; no first-party client library exists on npm, PyPI, NuGet, Maven
-Central, RubyGems, crates.io or pkg.go.dev; and the company's GitHub organization holds one
-empty repository. The single HTTP API host, `api.7invensun.com`, answers HTTP 401
-("请登录" / please log in) on every path including its root, with no public reference. The
-developer surface is a native device SDK (aSeeVR UserSDK and siblings) distributed from the
-company's own download center or under an OEM agreement.
+**Areas:** Company · Eye Tracking · Computer Vision · Artificial Intelligence · Hardware · Virtual Reality · Augmented Reality · Assistive Technology · Automotive · China
 
-- Website: https://www.7invensun.com/
-- GitHub: https://github.com/7invensun
-- Secondary-market listing this profile was harvested from: https://equityzen.com/company/7invensun
+## 7Invensun Technology on APIs.io
+
+Everything profiled for 7Invensun Technology is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/7invensun/](https://apis.io/providers/7invensun/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [7Invensun Domain Security](https://apis.io/security/7invensun/7invensun-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [7Invensun Plans Pricing](https://apis.io/plans/7invensun/7invensun-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [7Invensun Rate Limits](https://apis.io/rate-limits/7invensun/7invensun-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.7invensun.com/)
+- [Support](https://www.7invensun.com/lxwm)
+- [Blog](https://www.7invensun.com/newsRepublic)
+- [Privacy policy](https://www.7invensun.com/yszc)
+- [GitHub](https://github.com/7invensun)
+
+## API Evangelist rating
+
+**Kin Score 6.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 3.6 |
+| Access clarity | 5.3 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/7invensun/](https://apis.io/providers/7invensun/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 7Invensun Technology: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/7invensun/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
